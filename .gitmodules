@@ -1,3 +1,6 @@
 [submodule "hardware/PX-CORE"]
 	path = hardware/PX-CORE
 	url = https://github.com/OPRobots/PX-CORE
+[submodule "hardware/PX-01-MOD-LINEx16/kicad_project/custom_libraries"]
+	path = hardware/PX-01-MOD-LINEx16/kicad_project/custom_libraries
+	url = https://github.com/OPRobots/KiCADLibraries
