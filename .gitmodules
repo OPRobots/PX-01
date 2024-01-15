@@ -1,0 +1,3 @@
+[submodule "hardware/PX-CORE"]
+	path = hardware/PX-CORE
+	url = https://github.com/OPRobots/PX-CORE
