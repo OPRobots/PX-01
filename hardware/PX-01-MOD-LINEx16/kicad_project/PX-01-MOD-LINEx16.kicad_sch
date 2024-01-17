@@ -2218,7 +2218,7 @@
     (pin "1" (uuid bb58fdea-8c7c-47b3-bdd4-f1bf81abe687))
     (pin "2" (uuid b98dc3de-c9d2-40fb-90ec-bedd2ee6974d))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R9") (unit 1)
         )
@@ -2244,7 +2244,7 @@
     (pin "1" (uuid 62076568-34bd-4391-acd4-b02d9e015fb1))
     (pin "2" (uuid 7ff9fe85-c97e-4d44-b9e4-d60346f44c96))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R2") (unit 1)
         )
@@ -2261,7 +2261,7 @@
     (property "Value" "0.1uF" (at 130.81 180.34 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 127 185.1152 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 127 185.1152 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 130.81 184.15 0)
@@ -2270,7 +2270,7 @@
     (pin "1" (uuid b9029416-a778-40b6-8946-0034536e3926))
     (pin "2" (uuid 38590fa2-4ed6-459b-a908-3f5c53e30a5a))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "C2") (unit 1)
         )
@@ -2296,7 +2296,7 @@
     (pin "1" (uuid d1bf39e8-d1a6-48d3-aa7b-868f686168c7))
     (pin "2" (uuid 0ca2c88b-c7d1-4700-8cec-b465ce0f832d))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R22") (unit 1)
         )
@@ -2322,7 +2322,7 @@
     (pin "1" (uuid b79bba0f-1f6b-4f70-a00c-31e0a29ad4fc))
     (pin "2" (uuid 9386829c-5958-4d4f-86a9-f87cf414e79b))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R8") (unit 1)
         )
@@ -2350,7 +2350,7 @@
     (pin "3" (uuid 55f55578-9d65-4e65-ae18-21f717127796))
     (pin "4" (uuid 61fc3cf7-2abd-4569-9b17-9748b796dd77))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S11") (unit 1)
         )
@@ -2378,7 +2378,7 @@
     (pin "3" (uuid 1fdfa228-ef3b-46b4-ac5e-7be7882c92d8))
     (pin "4" (uuid 309980ab-6429-4260-9077-381edc516ee3))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S7") (unit 1)
         )
@@ -2409,7 +2409,7 @@
     (pin "6" (uuid 62147773-6639-44c9-82c0-88b8b755f447))
     (pin "7" (uuid b760fea6-19ee-4a98-89b5-77abd1d7a437))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "J9") (unit 1)
         )
@@ -2437,7 +2437,7 @@
     (pin "3" (uuid 42ada3fc-d554-4c02-be8d-ea146c20f706))
     (pin "4" (uuid b871bd1c-893a-4975-ba4a-872b1c1170bb))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S8") (unit 1)
         )
@@ -2463,7 +2463,7 @@
     (pin "1" (uuid eaedefa1-8d55-47e0-a90f-177bcb8b5f4d))
     (pin "2" (uuid 7b36b596-180b-442c-b400-a19b7ed54400))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R23") (unit 1)
         )
@@ -2489,7 +2489,7 @@
     (pin "1" (uuid f918ab7b-ae2e-49ae-86f8-df60cac80c58))
     (pin "2" (uuid ee9f6372-b4ac-4276-893a-5ee16a0d7594))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R7") (unit 1)
         )
@@ -2517,7 +2517,7 @@
     (pin "3" (uuid 00af762f-e185-4bbb-8455-624535374572))
     (pin "4" (uuid 36772bf6-d5a4-4948-8ffe-1f756b43e390))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S10") (unit 1)
         )
@@ -2543,7 +2543,7 @@
     (pin "1" (uuid e0a88e7d-6620-4358-898a-8de7ed604038))
     (pin "2" (uuid 1cf6b615-6634-4138-a194-931afd8c53ed))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R16") (unit 1)
         )
@@ -2575,7 +2575,7 @@
     (pin "7" (uuid c3e2d639-0b18-4879-b8ef-ea600f745a26))
     (pin "8" (uuid 821ad5a6-576e-48fd-856a-35ad5bfb82fd))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "AUX_FLEX1") (unit 1)
         )
@@ -2601,7 +2601,7 @@
     (pin "1" (uuid 8842fa9a-9127-4312-8ee8-69e3763d878d))
     (pin "2" (uuid f50e2dc4-e64e-471c-b7cc-a5b0c1b240a9))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R11") (unit 1)
         )
@@ -2629,7 +2629,7 @@
     (pin "3" (uuid 9f490487-2111-43da-b31a-7cd10a9e5d4a))
     (pin "4" (uuid 907b23e3-ad68-43b1-ad50-ead3cdc068fa))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S12") (unit 1)
         )
@@ -2657,7 +2657,7 @@
     (pin "3" (uuid dbff7430-0a0b-4026-90d6-3a654d8a6935))
     (pin "4" (uuid 16587fd0-55f1-4b29-b31c-eca23328be13))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S1") (unit 1)
         )
@@ -2683,7 +2683,7 @@
     (pin "1" (uuid 026fa545-d5df-474d-b7c4-2aa788217387))
     (pin "2" (uuid a87904ed-ce04-473a-bd3c-00da2ab13a56))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R4") (unit 1)
         )
@@ -2709,7 +2709,7 @@
     (pin "1" (uuid e6ceaf48-edff-4a07-8bbf-f1393ac48c53))
     (pin "2" (uuid 210ee7a9-8387-4f76-a8ef-02875e0be76f))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R3") (unit 1)
         )
@@ -2749,7 +2749,7 @@
     (pin "8" (uuid 35a11cb0-6795-426c-ae0a-27851638b4fd))
     (pin "9" (uuid f0d95c8d-4730-4552-ab02-c6aa2fadb510))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "MUX1") (unit 1)
         )
@@ -2780,7 +2780,7 @@
     (pin "6" (uuid 8d26be92-c48f-45eb-8ba5-53708b64f5a1))
     (pin "7" (uuid da4becbc-9942-4cad-bf81-6b9d173b4a88))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "J8") (unit 1)
         )
@@ -2806,7 +2806,7 @@
     (pin "1" (uuid d92254c9-43f2-4f64-bfb1-29517d418717))
     (pin "2" (uuid eae4b10a-069d-4ec0-9679-eb40e7de51d8))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R21") (unit 1)
         )
@@ -2834,7 +2834,7 @@
     (pin "3" (uuid 4660a468-819b-478f-b377-48d71661b74d))
     (pin "4" (uuid 207c7df8-930b-4020-8c78-1f72d4f00134))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S6") (unit 1)
         )
@@ -2862,7 +2862,7 @@
     (pin "3" (uuid af084162-926c-4205-bdac-0e658d76fc2d))
     (pin "4" (uuid ef737a87-cea5-4c7d-8398-2de07bf79ed7))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S4") (unit 1)
         )
@@ -2888,7 +2888,7 @@
     (pin "1" (uuid 7ad6adce-7d9b-47b9-977f-db00ab0fd631))
     (pin "2" (uuid 06e4a41c-53c7-4616-8e98-50555a90b60d))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R24") (unit 1)
         )
@@ -2914,7 +2914,7 @@
     (pin "1" (uuid 2d7b9cda-37d3-472c-9719-097004cbe02e))
     (pin "2" (uuid 048a0932-9916-41f3-aef0-b125a6f71f91))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R15") (unit 1)
         )
@@ -2942,7 +2942,7 @@
     (pin "3" (uuid b0d29db9-ee00-4975-9969-c38a9cc306be))
     (pin "4" (uuid fc94a6de-1dd8-4dd5-8d36-4b99ebbe83b9))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S14") (unit 1)
         )
@@ -2970,7 +2970,7 @@
     (pin "3" (uuid 656bf6c7-de98-43c1-90ba-91bf8d6df858))
     (pin "4" (uuid bd406f26-3029-4f40-8edc-f8d5358e4ad3))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S16") (unit 1)
         )
@@ -2998,7 +2998,7 @@
     (pin "3" (uuid 27b6d51c-bb6a-4637-b09e-855d2cabe3ea))
     (pin "4" (uuid 28abb8dc-9065-40c0-ad73-e60f44bf1661))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S13") (unit 1)
         )
@@ -3026,7 +3026,7 @@
     (pin "3" (uuid 574683e7-dceb-4f66-bf86-9626fe5a39aa))
     (pin "4" (uuid de6d455e-3bdd-4c60-aa53-498d7225cc7e))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S5") (unit 1)
         )
@@ -3052,7 +3052,7 @@
     (pin "1" (uuid e73da2a0-8b05-46e7-ae91-a8df39df03c6))
     (pin "2" (uuid 458a8311-40fe-490c-8f76-d6a86fbed900))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R20") (unit 1)
         )
@@ -3080,7 +3080,7 @@
     (pin "3" (uuid ff5bbb31-2e31-42a3-919d-0e0aa8fac334))
     (pin "4" (uuid 91e5d03f-b2cb-4463-be2f-b3edeec7379c))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S9") (unit 1)
         )
@@ -3112,7 +3112,7 @@
     (pin "7" (uuid 24fe36fd-99b2-4c22-87dc-dea504665995))
     (pin "8" (uuid 9963f7f8-b53d-4f3b-96da-a24de325bc6f))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "FLEX_MORRO1") (unit 1)
         )
@@ -3140,7 +3140,7 @@
     (pin "3" (uuid 185245b6-dc1c-497c-976b-25944cfe5f81))
     (pin "4" (uuid 5a5524bf-b154-4d10-b3aa-788b1be71ed2))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S3") (unit 1)
         )
@@ -3166,7 +3166,7 @@
     (pin "1" (uuid 357110d6-9a9b-485d-b587-3f13327b5861))
     (pin "2" (uuid f7d37339-e631-49bf-b38e-f7825fab1d1d))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R5") (unit 1)
         )
@@ -3192,7 +3192,7 @@
     (pin "1" (uuid 291a8930-8081-469e-bbdf-426ccd929684))
     (pin "2" (uuid 8b1a86f3-6f4d-4642-a245-c4916e6f6422))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R19") (unit 1)
         )
@@ -3232,7 +3232,7 @@
     (pin "8" (uuid 1e95b802-dab5-4c73-9fe8-5c9f4e6193ca))
     (pin "9" (uuid 7a63bbf4-c9d4-4177-bdb3-6af87ed2b611))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "MUX2") (unit 1)
         )
@@ -3258,7 +3258,7 @@
     (pin "1" (uuid e727dac9-d77e-4b92-84c3-e2ed9740a084))
     (pin "2" (uuid c309e25f-4bdb-4208-be01-71e587a23969))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R13") (unit 1)
         )
@@ -3275,7 +3275,7 @@
     (property "Value" "10uF" (at 66.04 170.18 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 62.23 174.9552 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 62.23 174.9552 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 66.04 173.99 0)
@@ -3284,7 +3284,7 @@
     (pin "1" (uuid ba26cdb7-6979-4d0f-bd93-9d1295e20534))
     (pin "2" (uuid f62f755c-2c66-4f6d-bfff-48592695e3e1))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "C3") (unit 1)
         )
@@ -3301,7 +3301,7 @@
     (property "Value" "10uF" (at 130.81 170.18 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 127 174.9552 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 127 174.9552 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 130.81 173.99 0)
@@ -3310,7 +3310,7 @@
     (pin "1" (uuid ba140856-a00f-42ac-abb1-7b40e100484b))
     (pin "2" (uuid b9eb54e4-5724-439d-b0ed-da47b1015da8))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "C1") (unit 1)
         )
@@ -3338,7 +3338,7 @@
     (pin "3" (uuid 08e800e7-cf93-43eb-9be4-279ab57a2ad4))
     (pin "4" (uuid e902e991-1d5e-4219-bc1b-a40a37d5dfa1))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S15") (unit 1)
         )
@@ -3364,7 +3364,7 @@
     (pin "1" (uuid 750908fd-eebf-4144-80e5-f70ae29d0127))
     (pin "2" (uuid 59de45e7-9c16-4170-89a5-f5a9ed1fd684))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R14") (unit 1)
         )
@@ -3390,7 +3390,7 @@
     (pin "1" (uuid 162ca441-499f-4805-866f-eef0cb9e2153))
     (pin "2" (uuid 60bd2a74-f2de-4d4b-859d-8ef4b214f516))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R18") (unit 1)
         )
@@ -3416,7 +3416,7 @@
     (pin "1" (uuid 7db3b723-469e-4cf4-b4b0-def1145e5063))
     (pin "2" (uuid 1f60c559-7bf3-44b7-b898-b59c265056c3))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R10") (unit 1)
         )
@@ -3442,7 +3442,7 @@
     (pin "1" (uuid c91d4dc6-74a9-4ed2-bc30-bb0763f0b8b1))
     (pin "2" (uuid cf9dcc6d-45ac-47d3-bf36-5efec0375523))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R17") (unit 1)
         )
@@ -3468,7 +3468,7 @@
     (pin "1" (uuid a906e3b4-c349-4959-847d-d1a40858559e))
     (pin "2" (uuid 69ef1cf4-72ba-4185-82b0-a8c2ec1ea726))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R1") (unit 1)
         )
@@ -3485,7 +3485,7 @@
     (property "Value" "0.1uF" (at 66.04 180.34 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 62.23 185.1152 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 62.23 185.1152 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 66.04 184.15 0)
@@ -3494,7 +3494,7 @@
     (pin "1" (uuid a77ec07c-eb34-4d1f-ac71-5d153dd016c1))
     (pin "2" (uuid c5a21701-15db-462d-95cc-04d8da8754c9))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "C4") (unit 1)
         )
@@ -3520,7 +3520,7 @@
     (pin "1" (uuid 8f0d0cbb-08b4-4c7e-8d31-12dbe554a35b))
     (pin "2" (uuid 137141af-a89f-48d6-8f0e-416ec46d8e9f))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R12") (unit 1)
         )
@@ -3546,7 +3546,7 @@
     (pin "1" (uuid 70d043c5-4d86-4b78-a022-68876f4d8dd5))
     (pin "2" (uuid 2d77390c-03e8-48b7-aba0-facbc7a664ec))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "R6") (unit 1)
         )
@@ -3574,7 +3574,7 @@
     (pin "3" (uuid 6356f96c-ae62-4130-93c8-fcb3bd45eac3))
     (pin "4" (uuid 046191ee-7636-4356-a2da-a5c941e598d3))
     (instances
-      (project "PCB_PX01_16xSensors"
+      (project "PX-01-MOD-LINEx16"
         (path "/b9d93021-acc9-4fa4-951b-65a13734b94e"
           (reference "S2") (unit 1)
         )
