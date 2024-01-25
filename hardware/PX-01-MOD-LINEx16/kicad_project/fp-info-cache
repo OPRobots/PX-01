@@ -1,4 +1,4 @@
-22237765325063303
+22239471451556117
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91937,6 +91937,13 @@ mounting hole 3.2mm m3
 0
 9
 1
+custom_footprints
+MUX_CD4051B
+TSSOP, 16 Pin (JEDEC MO-153 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+16
+16
 custom_footprints
 Mini360
 

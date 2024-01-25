@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>F:\PX-01\hardware\PX-01-MOD-LINEx16\kicad_project\PX-01-MOD-LINEx16.kicad_sch</source>
+    <date>24/01/2024 21:27:09</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PX-01-MOD-LINEx16.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AUX_FLEX1">
+      <value>Conn_01x08</value>
+      <footprint>custom_footprints:FPC0.5-8P</footprint>
+      <fields>
+        <field name="LCSC">C388694</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C388694"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60a33f61-7187-461e-be1c-1fc5c95f7099</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C109040</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C109040"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7306458-38a6-43a6-a3a6-bd92200d752e</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2847428</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C2847428"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09d675aa-c2c2-4da4-9904-cb001a641472</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C109040</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C109040"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf37e428-5a84-4654-98cd-d08cfb604145</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2847428</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C2847428"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7aa84a6-3971-48ae-9561-3ec0bbc26e24</tstamps>
+    </comp>
+    <comp ref="FLEX_MORRO1">
+      <value>Conn_01x08</value>
+      <footprint>custom_footprints:FPC0.5-8P</footprint>
+      <fields>
+        <field name="LCSC">C388694</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C388694"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9df85e90-7641-4126-89e2-5864ce481e1c</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x07_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x07_Socket" description="Generic connector, single row, 01x07, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x07, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69f2dbfd-fbf6-454b-aea5-815706f9f817</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x07_Socket" description="Generic connector, single row, 01x07, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x07, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>302db2bc-f86e-4722-8738-859c74d5fe36</tstamps>
+    </comp>
+    <comp ref="MUX1">
+      <value>CD4051B</value>
+      <footprint>custom_footprints:MUX_CD4051B</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd4052b.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3007951</field>
+      </fields>
+      <libsource lib="custom_symbols" part="MUX_CD4051B" description="CMOS single 8-channel analog multiplexer demultiplexer, TSSOP-16/DIP-16/SOIC-16"/>
+      <property name="LCSC" value="C3007951"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="CMOS single 8-channel analog multiplexer demultiplexer, TSSOP-16/DIP-16/SOIC-16"/>
+      <property name="ki_keywords" value="analog switch selector multiplexer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69ac6904-db30-4000-a9ab-aea9bd4d4efc</tstamps>
+    </comp>
+    <comp ref="MUX2">
+      <value>CD4051B</value>
+      <footprint>custom_footprints:MUX_CD4051B</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd4052b.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3007951</field>
+      </fields>
+      <libsource lib="custom_symbols" part="MUX_CD4051B" description="CMOS single 8-channel analog multiplexer demultiplexer, TSSOP-16/DIP-16/SOIC-16"/>
+      <property name="LCSC" value="C3007951"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="CMOS single 8-channel analog multiplexer demultiplexer, TSSOP-16/DIP-16/SOIC-16"/>
+      <property name="ki_keywords" value="analog switch selector multiplexer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8e796bf-64f3-4c83-95db-28d31e4dd272</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>45</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3017827</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3017827"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5e70a8b-a517-4c92-a1fd-bb0e967b1fd4</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="" part="R_1" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01c1b72f-6fc6-4c33-8aa1-44ff93a23329</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>688ac3f6-30ae-4458-97c0-4ae355b1ce28</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>45</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3017827</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3017827"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6671bf57-d585-4d0c-bfd6-f3043abac9a3</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a966768c-7bde-42aa-b0f9-7608f586a795</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa5e86ed-f8d2-4242-814f-bdafb27aa68c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>45</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3017827</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3017827"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ddf1f74-7e74-4775-afb6-e128395199c4</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23973bf7-85f6-4e78-9db9-dd9e134c5207</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>001b0920-52b2-42b8-9245-97ddd0ab80fd</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>45</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3017827</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3017827"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9c3aff3-8bf3-4072-8c03-04bc173d5a42</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>630a2562-b854-4740-8497-b5eb25934c49</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8b2fc77-ac59-4288-bd67-a14f66c758b2</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>45</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3017827</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3017827"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be6674e2-d7f4-48a5-a5b6-1107dc09c91c</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dded7064-e438-4e2e-b90a-c3387fea341a</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84c980af-725d-4a19-b946-8240e4659ebe</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>45</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3017827</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3017827"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e3d4067-784d-4e5e-858c-6d18d7e9b689</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f10a7341-891c-4389-a578-ea6eb2c65217</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df24216a-e370-4062-8734-7bb72ac5acc6</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>45</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3017827</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3017827"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afb34db3-22b2-470f-af34-36994c531303</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a507538-ed68-4689-8760-f681cb8ab723</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b94d5c6-566c-4634-9c92-1263509e9f93</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>45</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3017827</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3017827"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e34bd23-ab07-419c-b0ac-6c62fdf3b26a</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48311570-8abe-4efb-b9eb-c5a8bef5acb2</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C3016736"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82c9b548-a582-462e-8cc6-28f88b6fa153</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64f8574d-30e1-40cf-b62d-10ea563fee64</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff783c02-a0e2-443d-815a-01b2a812f8a4</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a17c870f-f437-4780-9338-4dfdcf132974</tstamps>
+    </comp>
+    <comp ref="S4">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79f7aaf4-7389-411f-bb24-6ae0ecf041c0</tstamps>
+    </comp>
+    <comp ref="S5">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9802f62f-2e0e-44a3-aca1-f473a7340372</tstamps>
+    </comp>
+    <comp ref="S6">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>782a1057-c292-483e-ae8e-50bc5974dd34</tstamps>
+    </comp>
+    <comp ref="S7">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b38851f-b35c-4e1e-8ed8-b4cd45c8ee0b</tstamps>
+    </comp>
+    <comp ref="S8">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b13a7e6-eaaf-4b75-898e-4189c7ade006</tstamps>
+    </comp>
+    <comp ref="S9">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b821d62-c444-4d6d-bfd3-a738d0a5040d</tstamps>
+    </comp>
+    <comp ref="S10">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58f59fa7-7333-4789-868a-92b084a6f4ac</tstamps>
+    </comp>
+    <comp ref="S11">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24bce1c8-47d0-4e3a-a97c-3b7d4bb452bb</tstamps>
+    </comp>
+    <comp ref="S12">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>642d1fae-fef1-4262-93c1-e077b58d87ad</tstamps>
+    </comp>
+    <comp ref="S13">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91ee9904-04ea-4c59-aa76-cc091f572de3</tstamps>
+    </comp>
+    <comp ref="S14">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89e31a45-378a-42ce-90ae-cc9e36fda216</tstamps>
+    </comp>
+    <comp ref="S15">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d100166e-f177-46c5-9537-7fbbe2631d7b</tstamps>
+    </comp>
+    <comp ref="S16">
+      <value>~</value>
+      <footprint>custom_footprints:ITR8307_SMD</footprint>
+      <fields>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <libsource lib="custom_symbols" part="ITR8307_SMD" description=""/>
+      <property name="LCSC" value="C81632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PX-01-MOD-LINEx16.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91a56e06-1f21-4d2e-b039-68024a1551db</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="R_1">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="LCSC">C3016736</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x07_Socket">
+      <description>Generic connector, single row, 01x07, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_symbols" part="ITR8307_SMD">
+      <fields>
+        <field name="Reference">S1</field>
+        <field name="Value">~</field>
+        <field name="Footprint">custom_footprints:ITR8307_SMD</field>
+        <field name="LCSC">C81632</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="power_in"/>
+        <pin num="3" name="" type="open_collector"/>
+        <pin num="4" name="" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_symbols" part="MUX_CD4051B">
+      <description>CMOS single 8-channel analog multiplexer demultiplexer, TSSOP-16/DIP-16/SOIC-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/cd4052b.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>DIP*W7.62*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>SO*5.3x10.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MUX1</field>
+        <field name="Value">CD4051B</field>
+        <field name="Footprint">custom_footprints:MUX_CD4051B</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/cd4052b.pdf</field>
+        <field name="LCSC">C3007951</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X4" type="bidirectional"/>
+        <pin num="2" name="X6" type="bidirectional"/>
+        <pin num="3" name="X" type="bidirectional"/>
+        <pin num="4" name="X7" type="bidirectional"/>
+        <pin num="5" name="X5" type="bidirectional"/>
+        <pin num="6" name="INH" type="input"/>
+        <pin num="7" name="VEE" type="power_in"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="C" type="input"/>
+        <pin num="10" name="B" type="input"/>
+        <pin num="11" name="A" type="input"/>
+        <pin num="12" name="X3" type="bidirectional"/>
+        <pin num="13" name="X0" type="bidirectional"/>
+        <pin num="14" name="X1" type="bidirectional"/>
+        <pin num="15" name="X2" type="bidirectional"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="custom_symbols">
+      <uri>F:\PX-01\hardware\PX-01-MOD-LINEx16\kicad_project/custom_libraries/custom_symbols.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3.3_M">
+      <node ref="FLEX_MORRO1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="MUX1" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="MUX2" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="S1" pin="1" pintype="input"/>
+      <node ref="S11" pin="1" pintype="input"/>
+      <node ref="S13" pin="1" pintype="input"/>
+      <node ref="S15" pin="1" pintype="input"/>
+      <node ref="S3" pin="1" pintype="input"/>
+      <node ref="S5" pin="1" pintype="input"/>
+      <node ref="S7" pin="1" pintype="input"/>
+      <node ref="S9" pin="1" pintype="input"/>
+    </net>
+    <net code="2" name="/AUX_3.3_M">
+      <node ref="AUX_FLEX1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/AUX_CH_A">
+      <node ref="AUX_FLEX1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="4" name="/AUX_CH_B">
+      <node ref="AUX_FLEX1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="5" name="/AUX_CH_C">
+      <node ref="AUX_FLEX1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="6" name="/AUX_GND_M">
+      <node ref="AUX_FLEX1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="AUX_FLEX1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="/AUX_OUT1">
+      <node ref="AUX_FLEX1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="8" name="/AUX_OUT2">
+      <node ref="AUX_FLEX1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="9" name="/CH_A">
+      <node ref="FLEX_MORRO1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="MUX1" pin="11" pinfunction="A" pintype="input"/>
+      <node ref="MUX2" pin="11" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="10" name="/CH_B">
+      <node ref="FLEX_MORRO1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="MUX1" pin="10" pinfunction="B" pintype="input"/>
+      <node ref="MUX2" pin="10" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="11" name="/CH_C">
+      <node ref="FLEX_MORRO1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="MUX1" pin="9" pinfunction="C" pintype="input"/>
+      <node ref="MUX2" pin="9" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="12" name="/GND_M">
+      <node ref="FLEX_MORRO1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="FLEX_MORRO1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MUX1" pin="6" pinfunction="INH" pintype="input"/>
+      <node ref="MUX1" pin="7" pinfunction="VEE" pintype="power_in"/>
+      <node ref="MUX1" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="MUX2" pin="6" pinfunction="INH" pintype="input"/>
+      <node ref="MUX2" pin="7" pinfunction="VEE" pintype="power_in"/>
+      <node ref="MUX2" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="S1" pin="4" pintype="power_in"/>
+      <node ref="S10" pin="2" pintype="power_in"/>
+      <node ref="S10" pin="4" pintype="power_in"/>
+      <node ref="S11" pin="4" pintype="power_in"/>
+      <node ref="S12" pin="2" pintype="power_in"/>
+      <node ref="S12" pin="4" pintype="power_in"/>
+      <node ref="S13" pin="4" pintype="power_in"/>
+      <node ref="S14" pin="2" pintype="power_in"/>
+      <node ref="S14" pin="4" pintype="power_in"/>
+      <node ref="S15" pin="4" pintype="power_in"/>
+      <node ref="S16" pin="2" pintype="power_in"/>
+      <node ref="S16" pin="4" pintype="power_in"/>
+      <node ref="S2" pin="2" pintype="power_in"/>
+      <node ref="S2" pin="4" pintype="power_in"/>
+      <node ref="S3" pin="4" pintype="power_in"/>
+      <node ref="S4" pin="2" pintype="power_in"/>
+      <node ref="S4" pin="4" pintype="power_in"/>
+      <node ref="S5" pin="4" pintype="power_in"/>
+      <node ref="S6" pin="2" pintype="power_in"/>
+      <node ref="S6" pin="4" pintype="power_in"/>
+      <node ref="S7" pin="4" pintype="power_in"/>
+      <node ref="S8" pin="2" pintype="power_in"/>
+      <node ref="S8" pin="4" pintype="power_in"/>
+      <node ref="S9" pin="4" pintype="power_in"/>
+    </net>
+    <net code="13" name="/OUT1">
+      <node ref="FLEX_MORRO1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="MUX1" pin="3" pinfunction="X" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/OUT2">
+      <node ref="FLEX_MORRO1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="MUX2" pin="3" pinfunction="X" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/S1">
+      <node ref="MUX1" pin="4" pinfunction="X7" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="S1" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="16" name="/S2">
+      <node ref="MUX1" pin="2" pinfunction="X6" pintype="bidirectional"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="S2" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="17" name="/S3">
+      <node ref="MUX1" pin="5" pinfunction="X5" pintype="bidirectional"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="S3" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="18" name="/S4">
+      <node ref="MUX1" pin="1" pinfunction="X4" pintype="bidirectional"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="S4" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="19" name="/S5">
+      <node ref="MUX1" pin="12" pinfunction="X3" pintype="bidirectional"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="S5" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="20" name="/S6">
+      <node ref="MUX1" pin="15" pinfunction="X2" pintype="bidirectional"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="S6" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="21" name="/S7">
+      <node ref="MUX1" pin="14" pinfunction="X1" pintype="bidirectional"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="S7" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="22" name="/S8">
+      <node ref="MUX1" pin="13" pinfunction="X0" pintype="bidirectional"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="S8" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="23" name="/S9">
+      <node ref="MUX2" pin="13" pinfunction="X0" pintype="bidirectional"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="S9" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="24" name="/S10">
+      <node ref="MUX2" pin="14" pinfunction="X1" pintype="bidirectional"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="S10" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="25" name="/S11">
+      <node ref="MUX2" pin="15" pinfunction="X2" pintype="bidirectional"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="S11" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="26" name="/S12">
+      <node ref="MUX2" pin="12" pinfunction="X3" pintype="bidirectional"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="S12" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="27" name="/S13">
+      <node ref="MUX2" pin="1" pinfunction="X4" pintype="bidirectional"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="S13" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="28" name="/S14">
+      <node ref="MUX2" pin="5" pinfunction="X5" pintype="bidirectional"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="S14" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="29" name="/S15">
+      <node ref="MUX2" pin="2" pinfunction="X6" pintype="bidirectional"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="S15" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="30" name="/S16">
+      <node ref="MUX2" pin="4" pinfunction="X7" pintype="bidirectional"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="S16" pin="3" pintype="open_collector"/>
+    </net>
+    <net code="31" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="S1" pin="2" pintype="power_in"/>
+    </net>
+    <net code="32" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="S2" pin="1" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="S3" pin="2" pintype="power_in"/>
+    </net>
+    <net code="34" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="S4" pin="1" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="S5" pin="2" pintype="power_in"/>
+    </net>
+    <net code="36" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="S6" pin="1" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="S7" pin="2" pintype="power_in"/>
+    </net>
+    <net code="38" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="S8" pin="1" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="S9" pin="2" pintype="power_in"/>
+    </net>
+    <net code="40" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="S10" pin="1" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="S11" pin="2" pintype="power_in"/>
+    </net>
+    <net code="42" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="S12" pin="1" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="S13" pin="2" pintype="power_in"/>
+    </net>
+    <net code="44" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="S14" pin="1" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="S15" pin="2" pintype="power_in"/>
+    </net>
+    <net code="46" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="S16" pin="1" pintype="input"/>
+    </net>
+  </nets>
+</export>
