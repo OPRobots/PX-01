@@ -2,8 +2,10 @@
 #define CONFIG_H
 
 #include <Arduino.h>
+#include <EEPROM.h>
 #include <motors.h>
 #include <pinout.h>
+#include <rc5.h>
 
 /**
  * @brief Indica el modo de funcionamiento del robot.
@@ -15,7 +17,7 @@
 /**
  * @brief Indica si la línea a seguir es blanca o negra.
  * Este control se usa para aplicar un filtro en la detección de la línea.
- * 
+ *
  */
 // #define LINE_WHITE 0
 #define LINE_BLACK 1
@@ -30,7 +32,7 @@
 /**
  * @brief Tiempo máximo de ejecución en modo prueba (MODE_TEST).
  * Después de este tiempo, el robot se detendrá automáticamente.
- * 
+ *
  */
 #define TEST_DURATION_MS 5000
 
@@ -49,7 +51,7 @@
 /**
  * @brief Configuración de Velocidad y Aceleración.
  * Dispone de varios menús para seleccionar la velocidad y aceleración del robot.
- * 
+ *
  */
 #define MENU_1_BASE_SPEED 10
 #define MENU_1_ACCEL_SPEED 40
@@ -69,6 +71,12 @@
  */
 #define PID_KP 0.15
 #define PID_KD 0.70
+
+#define EEPROM_SIZE 512
+enum EEPROM_ADDR {
+  EEPROM_ADDR_RC5_START = 0, // uint16_t
+  EEPROM_ADDR_RC5_STOP = 16  // uint16_t
+};
 
 void init_components();
 long get_ms_start();

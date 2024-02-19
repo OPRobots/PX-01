@@ -12,10 +12,10 @@
  * Rango: 0 a 1023
  *
  */
-#define PWM_MOTOR_RIGHT_A 0
-#define PWM_MOTOR_RIGHT_B 1
-#define PWM_MOTOR_LEFT_A 2
-#define PWM_MOTOR_LEFT_B 3
+#define PWM_MOTOR_RIGHT_A 2
+#define PWM_MOTOR_RIGHT_B 3
+#define PWM_MOTOR_LEFT_A 0
+#define PWM_MOTOR_LEFT_B 1
 #define PWM_MOTORS_HZ 1000
 #define PWM_MOTORS_RESOLUTION 10
 #define PWM_MOTORS_MAX 1023

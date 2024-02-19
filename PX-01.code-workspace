@@ -4,5 +4,12 @@
 			"path": "software/PX-01 Pro & OPR Style"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"*.tpl": "html",
+			"memory": "cpp",
+			"random": "cpp",
+			"optional": "cpp"
+		}
+	}
 }

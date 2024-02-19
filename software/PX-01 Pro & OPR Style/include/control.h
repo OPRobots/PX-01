@@ -5,6 +5,9 @@
 #include <motors.h>
 #include <sensors.h>
 
+void set_race_starting(bool starting);
+bool is_race_starting();
+
 void set_race_started(bool started);
 bool is_race_started();
 long get_race_started_ms();

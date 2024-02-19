@@ -1,5 +1,7 @@
 #include <config.h>
 
+static hw_timer_t *timer = NULL;
+
 /**
  * @brief Inicializa los componentes del robot.
  *
@@ -7,8 +9,13 @@
 void init_components() {
   Serial.begin(115200);
 
+  EEPROM.begin(EEPROM_SIZE);
+
+  rc5_init();
+
   pinMode(NEOPIXEL, OUTPUT);
-  pinMode(MOD_START, INPUT_PULLDOWN);
+  pinMode(MOD_START, INPUT);
+  attachInterrupt(digitalPinToInterrupt(MOD_START), rc5_isr, CHANGE);
   pinMode(BTN_1, INPUT_PULLUP);
 
   pinMode(SENSOR_1, OUTPUT);

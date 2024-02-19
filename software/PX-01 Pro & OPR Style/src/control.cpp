@@ -10,6 +10,7 @@ static int base_fan_speed = 0;
 
 static int speed = 0;
 
+static bool race_starting = false;
 static bool race_started = false;
 static long race_started_ms = 0;
 
@@ -27,12 +28,32 @@ static float calc_correction(int error) {
 }
 
 /**
+ * @brief Establece el estado de iniciando carrera.
+ *
+ * @param starting Indica si la carrera está iniciando.
+ */
+void set_race_starting(bool starting) {
+  race_starting = starting;
+}
+
+/**
+ * @brief Comprueba si la carrera está iniciando.
+ *
+ * @return true Iniciando.
+ * @return false En espera o iniciada.
+ */
+bool is_race_starting() {
+  return race_starting;
+}
+
+/**
  * @brief Establece el estado de la carrera y, en caso de haber comenzado, guarda el tiempo (ms) de inicio.
  *
  * @param started Indica si la carrera ha comenzado.
  */
 void set_race_started(bool started) {
   race_started = started;
+  race_starting = false;
   if (started) {
     race_started_ms = millis();
   }
@@ -89,7 +110,7 @@ void set_base_fan_speed(int fan_speed) {
  * @brief Obtiene la velocidad base del ventilador.
  *
  * @return int Velocidad base del ventilador.
- */ 
+ */
 int get_base_fan_speed() {
   return base_fan_speed;
 }
@@ -97,7 +118,7 @@ int get_base_fan_speed() {
 /**
  * @brief Bucle de control principal. Realiza el cálculo de la corrección del controlador PID y establece la velocidad de los motores y el ventilador.
  * Esta función debe llamarse lo más frecuentemente posible. El tiempo entre ejecuciones está definido por la constante CONTROL_LOOP_US.
- * 
+ *
  */
 void control_loop() {
   if (micros() - last_control_loop_us > CONTROL_LOOP_US || micros() < last_control_loop_us) {
@@ -107,6 +128,7 @@ void control_loop() {
       set_motors_speed(0, 0);
       set_fan_speed(0);
       set_race_started(false);
+      return;
     } else {
 
       if (speed < base_speed) {
