@@ -56,8 +56,8 @@ void loop() {
             set_led(RGB_TOP, 0, 0, 50);
             clear_led(RGB_LEFT);
             clear_led(RGB_RIGHT);
-            if(get_base_fan_speed() != 0) {
-              set_fan_speed(get_base_fan_speed()*0.5f);
+            if (get_base_fan_speed() != 0) {
+              set_fan_speed(get_base_fan_speed() * 0.85f);
             }
           }
         }

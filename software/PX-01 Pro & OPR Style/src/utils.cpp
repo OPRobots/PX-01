@@ -1,6 +1,6 @@
 #include <utils.h>
 
-static Adafruit_NeoPixel pixels(7, NEOPIXEL, NEO_GRB + NEO_KHZ800);
+static Adafruit_NeoPixel pixels(3, NEOPIXEL, NEO_GRB + NEO_KHZ800);
 
 static bool toggle_led_state[3] = {false, false, false};
 static int blink_led_ms[3] = {0, 0, 0};
@@ -92,7 +92,7 @@ enum BTN_STATES get_btn_pressed_state() {
   if (millis() - btn_last_pressed_ms < 50) {
     return BTN_RELEASED;
   }
-  if (digitalRead(BTN_1)) {
+  if (!digitalRead(BTN_1)) {
     // Serial.print("RELEASE ");
     // Serial.println(btn_pressed_ms);
     if (btn_pressed_ms == 0) {

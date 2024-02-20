@@ -9,7 +9,7 @@ void init_components() {
 
   pinMode(NEOPIXEL, OUTPUT);
   pinMode(MOD_START, INPUT_PULLDOWN);
-  pinMode(BTN_1, INPUT_PULLUP);
+  pinMode(BTN_1, INPUT_PULLDOWN);
 
   pinMode(SENSOR_1, OUTPUT);
   pinMode(SENSOR_2, OUTPUT);
