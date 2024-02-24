@@ -3,6 +3,7 @@
 
 #include <Arduino.h>
 #include <pinout.h>
+#include <control.h>
 
 /**
  * @brief Configuración de los motores de tracción.

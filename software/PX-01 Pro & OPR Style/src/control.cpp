@@ -12,6 +12,7 @@ static int speed = 0;
 
 static bool race_started = false;
 static long race_started_ms = 0;
+static long race_stopped_ms = 0;
 
 /**
  * @brief Realiza el cálculo de la corrección del controlador PID en función del error respecto a la posición de la línea.
@@ -35,6 +36,8 @@ void set_race_started(bool started) {
   race_started = started;
   if (started) {
     race_started_ms = millis();
+  }else{
+    race_stopped_ms = millis();
   }
 }
 
@@ -56,6 +59,10 @@ bool is_race_started() {
  */
 long get_race_started_ms() {
   return race_started_ms;
+}
+
+long get_race_stopped_ms() {
+  return race_stopped_ms;
 }
 
 /**

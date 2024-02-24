@@ -20,10 +20,10 @@ void init_motors() {
   ledcAttachPin(MOTOR_SUCTION, PWM_SUCTION);
 
   // Establece el valor inicial de los canales PWM
-  ledcWrite(PWM_MOTOR_RIGHT_A, PWM_MOTORS_MAX);
-  ledcWrite(PWM_MOTOR_RIGHT_B, PWM_MOTORS_MAX);
-  ledcWrite(PWM_MOTOR_LEFT_A, PWM_MOTORS_MAX);
-  ledcWrite(PWM_MOTOR_LEFT_B, PWM_MOTORS_MAX);
+  ledcWrite(PWM_MOTOR_RIGHT_A, PWM_MOTORS_MIN);
+  ledcWrite(PWM_MOTOR_RIGHT_B, PWM_MOTORS_MIN);
+  ledcWrite(PWM_MOTOR_LEFT_A, PWM_MOTORS_MIN);
+  ledcWrite(PWM_MOTOR_LEFT_B, PWM_MOTORS_MIN);
   ledcWrite(PWM_SUCTION, PWM_SUCTION_MIN);
 
   // Tiempo de espera para inicialización del ESC; se puede comentar si se espera manualmente (calibrando, ajustando velocidad, etc.)
@@ -43,12 +43,17 @@ void set_motors_speed(float velI, float velD) {
     velI = -100;
   }
 
-  if (velI > 0) {
-    ledcWrite(PWM_MOTOR_LEFT_A, PWM_MOTORS_MAX);
-    ledcWrite(PWM_MOTOR_LEFT_B, PWM_MOTORS_MAX - (PWM_MOTORS_MAX * velI / 100));
+  if (is_race_started() || millis() - get_race_stopped_ms() < 1000) {
+    if (velI > 0) {
+      ledcWrite(PWM_MOTOR_LEFT_A, PWM_MOTORS_MAX);
+      ledcWrite(PWM_MOTOR_LEFT_B, PWM_MOTORS_MAX - (PWM_MOTORS_MAX * velI / 100));
+    } else {
+      ledcWrite(PWM_MOTOR_LEFT_A, PWM_MOTORS_MAX - (PWM_MOTORS_MAX * abs(velI) / 100));
+      ledcWrite(PWM_MOTOR_LEFT_B, PWM_MOTORS_MAX);
+    }
   } else {
-    ledcWrite(PWM_MOTOR_LEFT_A, PWM_MOTORS_MAX - (PWM_MOTORS_MAX * abs(velI) / 100));
-    ledcWrite(PWM_MOTOR_LEFT_B, PWM_MOTORS_MAX);
+    ledcWrite(PWM_MOTOR_LEFT_A, PWM_MOTORS_MIN);
+    ledcWrite(PWM_MOTOR_LEFT_B, PWM_MOTORS_MIN);
   }
 
   if (velD > 100) {
@@ -57,12 +62,17 @@ void set_motors_speed(float velI, float velD) {
     velD = -100;
   }
 
-  if (velD > 0) {
-    ledcWrite(PWM_MOTOR_RIGHT_A, PWM_MOTORS_MAX);
-    ledcWrite(PWM_MOTOR_RIGHT_B, PWM_MOTORS_MAX - (PWM_MOTORS_MAX * velD / 100));
+  if (is_race_started() || millis() - get_race_stopped_ms() < 1000) {
+    if (velD > 0) {
+      ledcWrite(PWM_MOTOR_RIGHT_A, PWM_MOTORS_MAX);
+      ledcWrite(PWM_MOTOR_RIGHT_B, PWM_MOTORS_MAX - (PWM_MOTORS_MAX * velD / 100));
+    } else {
+      ledcWrite(PWM_MOTOR_RIGHT_A, PWM_MOTORS_MAX - (PWM_MOTORS_MAX * abs(velD) / 100));
+      ledcWrite(PWM_MOTOR_RIGHT_B, PWM_MOTORS_MAX);
+    }
   } else {
-    ledcWrite(PWM_MOTOR_RIGHT_A, PWM_MOTORS_MAX - (PWM_MOTORS_MAX * abs(velD) / 100));
-    ledcWrite(PWM_MOTOR_RIGHT_B, PWM_MOTORS_MAX);
+    ledcWrite(PWM_MOTOR_RIGHT_A, PWM_MOTORS_MIN);
+    ledcWrite(PWM_MOTOR_RIGHT_B, PWM_MOTORS_MIN);
   }
 }
 
