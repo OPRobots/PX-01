@@ -6,9 +6,9 @@
 #include <pinout.h>
 
 enum LEDS {
-  RGB_LEFT = 2,
+  RGB_LEFT = 0,
   RGB_TOP = 1,
-  RGB_RIGHT = 0
+  RGB_RIGHT = 2
 };
 
 void set_led(enum LEDS led, int r, int g, int b);
