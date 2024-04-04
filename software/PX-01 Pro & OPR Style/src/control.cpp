@@ -11,6 +11,7 @@ static int base_fan_speed = 0;
 static int speed = 0;
 
 static bool race_started = false;
+static bool race_starting = false;
 static long race_started_ms = 0;
 static long race_stopped_ms = 0;
 
@@ -35,8 +36,10 @@ static float calc_correction(int error) {
 void set_race_started(bool started) {
   race_started = started;
   if (started) {
+    speed = 0;
+    race_starting = false;
     race_started_ms = millis();
-  }else{
+  } else {
     race_stopped_ms = millis();
   }
 }
@@ -49,6 +52,15 @@ void set_race_started(bool started) {
  */
 bool is_race_started() {
   return race_started;
+}
+
+
+void set_race_starting(bool starting) {
+  race_starting = starting;
+}
+
+bool is_race_starting(){
+  return race_starting;
 }
 
 /**
@@ -96,15 +108,24 @@ void set_base_fan_speed(int fan_speed) {
  * @brief Obtiene la velocidad base del ventilador.
  *
  * @return int Velocidad base del ventilador.
- */ 
+ */
 int get_base_fan_speed() {
   return base_fan_speed;
+}
+
+void initial_control_loop() {
+  if (micros() - last_control_loop_us > CONTROL_LOOP_US || micros() < last_control_loop_us) {
+    position = get_sensor_position(position);
+    int correction = calc_correction(position);
+    set_motors_speed(correction, -correction);
+    last_control_loop_us = micros();
+  }
 }
 
 /**
  * @brief Bucle de control principal. Realiza el cálculo de la corrección del controlador PID y establece la velocidad de los motores y el ventilador.
  * Esta función debe llamarse lo más frecuentemente posible. El tiempo entre ejecuciones está definido por la constante CONTROL_LOOP_US.
- * 
+ *
  */
 void control_loop() {
   if (micros() - last_control_loop_us > CONTROL_LOOP_US || micros() < last_control_loop_us) {
@@ -117,7 +138,7 @@ void control_loop() {
     } else {
 
       if (speed < base_speed) {
-        speed = base_accel_speed * (race_started_ms / 1000.0f);
+        speed = 20 + (base_accel_speed * ((millis() - race_started_ms) / 1000.0f));
       } else if (speed > base_speed) {
         speed = base_speed;
       }

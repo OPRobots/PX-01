@@ -59,6 +59,8 @@ void loop() {
             if (get_base_fan_speed() != 0) {
               set_fan_speed(get_base_fan_speed() * 0.85f);
             }
+            set_race_starting(true);
+            initial_control_loop();
           }
         }
       }
@@ -69,10 +71,12 @@ void loop() {
     }
   } else {
     control_loop();
+#ifdef MODE_TEST
     if ((millis() - get_race_started_ms()) >= TEST_DURATION_MS) {
       set_fan_speed(0);
       set_motors_speed(0, 0);
       set_race_started(false);
     }
+#endif
   }
 }
