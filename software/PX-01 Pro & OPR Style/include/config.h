@@ -53,15 +53,15 @@
  * Dispone de varios menús para seleccionar la velocidad y aceleración del robot.
  *
  */
-#define MENU_1_BASE_SPEED 10
+#define MENU_1_BASE_SPEED 50
 #define MENU_1_ACCEL_SPEED 40
 #define MENU_1_BASE_FAN_SPEED 0
 
-#define MENU_2_BASE_SPEED 20
+#define MENU_2_BASE_SPEED 65
 #define MENU_2_ACCEL_SPEED 40
 #define MENU_2_BASE_FAN_SPEED 20
 
-#define MENU_3_BASE_SPEED 30
+#define MENU_3_BASE_SPEED 80
 #define MENU_3_ACCEL_SPEED 40
 #define MENU_3_BASE_FAN_SPEED 40
 
@@ -69,8 +69,8 @@
  * @brief Constantes del controlador PID.
  *
  */
-#define PID_KP 0.15
-#define PID_KD 0.70
+#define PID_KP 0.20
+#define PID_KD 5.00
 
 #define EEPROM_SIZE 512
 enum EEPROM_ADDR {

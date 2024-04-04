@@ -34,8 +34,8 @@
  */
 #define MOTOR_RIGHT_A 2
 #define MOTOR_RIGHT_B 8
-#define MOTOR_LEFT_A 7
-#define MOTOR_LEFT_B 10
+#define MOTOR_LEFT_A 10
+#define MOTOR_LEFT_B 7
 #define MOTOR_SUCTION 5
 
 #endif // PINOUT_H

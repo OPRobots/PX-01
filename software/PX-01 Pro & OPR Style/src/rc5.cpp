@@ -121,6 +121,8 @@ void rc5_register(enum RC5_TRIGGER trigger) {
   rc5_decode_pulse(trigger, us - last_us);
   last_us = us;
 
+  delayMicroseconds(100);
+
   if (bits == 14) {
     rc5_manage_command(cmd);
     cmd = 0;
