@@ -43,7 +43,7 @@ void set_motors_speed(float velI, float velD) {
     velI = -100;
   }
 
-  if (is_race_started() || millis() - get_race_stopped_ms() < 1000) {
+  if (is_race_started() || is_race_starting() || millis() - get_race_stopped_ms() < 1000) {
     if (velI > 0) {
       ledcWrite(PWM_MOTOR_LEFT_A, PWM_MOTORS_MAX- (PWM_MOTORS_MAX * velI / 100));
       ledcWrite(PWM_MOTOR_LEFT_B, PWM_MOTORS_MAX );
@@ -62,7 +62,7 @@ void set_motors_speed(float velI, float velD) {
     velD = -100;
   }
 
-  if (is_race_started() || millis() - get_race_stopped_ms() < 1000) {
+  if (is_race_started() || is_race_starting() || millis() - get_race_stopped_ms() < 1000) {
     if (velD > 0) {
       ledcWrite(PWM_MOTOR_RIGHT_A, PWM_MOTORS_MAX );
       ledcWrite(PWM_MOTOR_RIGHT_B, PWM_MOTORS_MAX- (PWM_MOTORS_MAX * velD / 100));
