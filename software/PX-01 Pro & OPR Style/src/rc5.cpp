@@ -73,6 +73,13 @@ static void rc5_manage_command(uint16_t message) {
         set_race_started(false);
       }
       break;
+    default:
+      if (command == 0x01) {
+        set_race_starting(true);
+      } else if (command == 0x02) {
+        set_race_started(false);
+      }
+      break;
   }
 }
 
