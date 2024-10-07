@@ -1,4 +1,4 @@
-#include <config.h>
+#include "config.h"
 
 static hw_timer_t *timer = NULL;
 
@@ -9,14 +9,14 @@ static hw_timer_t *timer = NULL;
 void init_components() {
   Serial.begin(115200);
 
-  EEPROM.begin(EEPROM_SIZE);
+  // EEPROM.begin(EEPROM_SIZE);
 
   rc5_init();
 
   pinMode(NEOPIXEL, OUTPUT);
   pinMode(MOD_START, INPUT);
   attachInterrupt(digitalPinToInterrupt(MOD_START), rc5_isr, CHANGE);
-  pinMode(BTN_1, INPUT_PULLUP);
+  pinMode(BTN_1, INPUT_PULLDOWN);
 
   pinMode(SENSOR_1, OUTPUT);
   pinMode(SENSOR_2, OUTPUT);

@@ -2,9 +2,9 @@
 #define SENSORS_H
 
 #include <Arduino.h>
-#include <config.h>
-#include <pinout.h>
-#include <utils.h>
+#include "config.h"
+#include "pinout.h"
+#include "utils.h"
 
 /**
  * @brief Cantidad de sensores.

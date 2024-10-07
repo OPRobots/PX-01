@@ -2,10 +2,10 @@
 #define CONFIG_H
 
 #include <Arduino.h>
-#include <EEPROM.h>
-#include <motors.h>
-#include <pinout.h>
-#include <rc5.h>
+// #include "EEPROM.h"
+#include "motors.h"
+#include "pinout.h"
+#include "rc5.h"
 
 /**
  * @brief Indica el modo de funcionamiento del robot.
@@ -55,22 +55,22 @@
  */
 #define MENU_1_BASE_SPEED 50
 #define MENU_1_ACCEL_SPEED 40
-#define MENU_1_BASE_FAN_SPEED 0
+#define MENU_1_BASE_FAN_SPEED 65
 
-#define MENU_2_BASE_SPEED 65
+#define MENU_2_BASE_SPEED 60
 #define MENU_2_ACCEL_SPEED 40
-#define MENU_2_BASE_FAN_SPEED 20
+#define MENU_2_BASE_FAN_SPEED 75
 
-#define MENU_3_BASE_SPEED 80
+#define MENU_3_BASE_SPEED 70
 #define MENU_3_ACCEL_SPEED 40
-#define MENU_3_BASE_FAN_SPEED 40
+#define MENU_3_BASE_FAN_SPEED 85
 
 /**
  * @brief Constantes del controlador PID.
  *
  */
-#define PID_KP 0.20
-#define PID_KD 5.00
+#define PID_KP 0.2
+#define PID_KD 5.0
 
 #define EEPROM_SIZE 512
 enum EEPROM_ADDR {

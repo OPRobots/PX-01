@@ -1,4 +1,4 @@
-#include <sensors.h>
+#include "sensors.h"
 
 static int sensors_raw[SENSORS_COUNT];
 static long sensors_refresh_mc = 0;

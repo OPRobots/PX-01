@@ -1,4 +1,4 @@
-#include <control.h>
+#include "control.h"
 
 static long last_control_loop_us = 0;
 static int position = 0;
@@ -57,7 +57,7 @@ void set_race_started(bool started) {
   race_starting = false;
   if (started) {
     race_started_ms = millis();
-  }else{
+  } else {
     race_stopped_ms = millis();
   }
 }
@@ -129,7 +129,8 @@ int get_base_fan_speed() {
  */
 void control_loop() {
   if (micros() - last_control_loop_us > CONTROL_LOOP_US || micros() < last_control_loop_us) {
-    position = get_sensor_position(position);
+    int new_position = get_sensor_position(position);
+    position = new_position * 0.8f + (1 - 0.8f) * position;
     int correction = calc_correction(position);
     if (millis() - get_last_line_detected_ms() > 250) {
       set_motors_speed(0, 0);
@@ -138,14 +139,18 @@ void control_loop() {
       return;
     } else {
 
-      if (speed < base_speed) {
-        speed = base_accel_speed * (race_started_ms / 1000.0f);
-      } else if (speed > base_speed) {
-        speed = base_speed;
+      if (is_race_started()) {
+        if (speed < base_speed) {
+          speed = base_accel_speed * (race_started_ms / 1000.0f);
+        } else if (speed > base_speed) {
+          speed = base_speed;
+        }
+      } else {
+        speed = 0;
       }
 
       set_motors_speed(speed + correction, speed - correction);
-      if (base_fan_speed > 0) {
+      if (base_fan_speed > 0 && is_race_started()) {
         set_fan_speed(base_fan_speed);
       }
     }

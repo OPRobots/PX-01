@@ -1,9 +1,9 @@
 #ifndef CONTROL_H
 #define CONTROL_H
 
-#include <config.h>
-#include <motors.h>
-#include <sensors.h>
+#include "config.h"
+#include "motors.h"
+#include "sensors.h"
 
 void set_race_starting(bool starting);
 bool is_race_starting();

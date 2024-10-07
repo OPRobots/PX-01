@@ -1,7 +1,8 @@
 /**
     Basado en https://clearwater.com.au/code/rc5
  */
-#include <rc5.h>
+#include "rc5.h"
+#include <Arduino.h>
 
 enum RC5_TIMMINGS {
   MIN_SHORT = 444,
@@ -62,9 +63,12 @@ static void rc5_manage_command(uint16_t message) {
     case ADDRESS_PROG:
       rc5_stored_data[0] = command;
       rc5_stored_data[1] = command + 1;
-      EEPROM.writeUShort(EEPROM_ADDR_RC5_START, rc5_stored_data[DATA_START]);
-      EEPROM.writeUShort(EEPROM_ADDR_RC5_STOP, rc5_stored_data[DATA_STOP]);
-      EEPROM.commit();
+      // EEPROM.writeUShort(EEPROM_ADDR_RC5_START, rc5_stored_data[DATA_START]);
+      // EEPROM.writeUShort(EEPROM_ADDR_RC5_STOP, rc5_stored_data[DATA_STOP]);
+      // EEPROM.commit();
+      // set_led(RGB_RIGHT, 0, 50, 0);
+      // delay(1000);
+      // clear_led(RGB_RIGHT);
       break;
     case ADDRESS_COMP:
       if (command == rc5_stored_data[DATA_START]) {
@@ -119,8 +123,8 @@ static void rc5_decode_pulse(enum RC5_TRIGGER trigger, uint32_t elapsed) {
 }
 
 void rc5_init(void) {
-  rc5_stored_data[DATA_START] = EEPROM.readUShort(EEPROM_ADDR_RC5_START);
-  rc5_stored_data[DATA_STOP] = EEPROM.readUShort(EEPROM_ADDR_RC5_STOP);
+  // rc5_stored_data[DATA_START] = EEPROM.readUShort(EEPROM_ADDR_RC5_START);
+  // rc5_stored_data[DATA_STOP] = EEPROM.readUShort(EEPROM_ADDR_RC5_STOP);
 }
 
 void rc5_register(enum RC5_TRIGGER trigger) {

@@ -1,11 +1,12 @@
 #include <Arduino.h>
 
-#include <config.h>
-#include <control.h>
-#include <menu.h>
-#include <pinout.h>
-#include <sensors.h>
-#include <utils.h>
+#include "config.h"
+#include "control.h"
+#include "menu.h"
+#include "pinout.h"
+#include "rc5.h"
+#include "sensors.h"
+#include "utils.h"
 
 bool race_started = false;
 long race_started_ms = 0;
@@ -17,6 +18,14 @@ void setup() {
 }
 
 void loop() {
+  // rc5_update();
+  // printf("%d\n", is_race_starting());
+  // delay(200);
+
+  // set_led(RGB_RIGHT, 0, 0, 50);
+  // clear_led(RGB_LEFT);
+  // clear_led(RGB_TOP);
+  // return;
 
   if (!is_race_started() && !is_race_starting()) {
     BTN_STATES btn_state = get_btn_pressed_state();
@@ -62,8 +71,9 @@ void loop() {
           clear_led(RGB_LEFT);
           clear_led(RGB_RIGHT);
           if (get_base_fan_speed() != 0) {
-            set_fan_speed(get_base_fan_speed() * 0.5f);
+            set_fan_speed(get_base_fan_speed());
           }
+          control_loop();
         }
       }
     }
